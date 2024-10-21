@@ -2,7 +2,7 @@
     <img src="public/src/img/logo/texto/2-1024.png" width=500>
 </p>
 
-<h1 style="color:gold;" align="center">
+<h1 align="center">
  🌤️ Mensajes instantaneos para una conversación vibrante 🐝🐝
 </h1>
 
@@ -14,7 +14,7 @@
 
 ¡Comparte tu día a día, envía mensajes instantáneos, y mantente siempre al tanto de lo que pasa en tu red!
 
-<h1 style="color: Moccasin;">
+<h1>
     Características Principales
 </h1>
 
