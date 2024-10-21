@@ -2,9 +2,9 @@
     <img src="/public/src/img/logotexto2-1024.png" width=500>
 </p>
 
-<h2 align="center">
+<h1 align="center">
  Mensajes instantaneos para una conversación vibrante
-</h2>
+</h1>
 
 <p align="center">
     <img src="/public/src/img/logo21024.png" width=400>
