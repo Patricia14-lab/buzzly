@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Buzzly</title>
     <meta property="og:site_name" content="Buzzly - Mensajería instantanea" />
     <meta property="og:title" content="Buzzly" />
@@ -14,12 +14,30 @@
     <link rel="icon" type="image/png" href="/src/img/logo64.png" />
 
     <script src="https://jeff-aporta.github.io/ASCIIMapLoader/index.js"></script>
-</head>
-<body>
-    <h1>
-        Hola
-    </h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi sit nulla, quaerat labore molestias earum animi consequuntur et, officia velit ipsa facere laboriosam ratione non blanditiis quia illo atque quidem facilis. Deserunt suscipit saepe laborum, nemo id beatae rerum eveniet. Iusto ratione sit deleniti quidem nisi culpa ex fugit aliquid a voluptatem. Accusantium labore reiciendis unde alias error perspiciatis ad.</p>
-    
-</body>
+
+    <script>
+      runASCIIMapLoader_inLine(`
+            🔗 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css
+            
+            
+            ➤🌐 https://cdnjs.cloudflare.com
+            │
+            └──🔗 ajax/libs/babel-standalone/7.25.5/babel.min.js
+            
+            ➤🌐 https://unpkg.com/
+            │
+            ├──🔗 react@18.3.1/umd/react.production.min.js
+            ├──🔗 react-dom@18.3.1/umd/react-dom.production.min.js
+            └──🔗 @mui/material@5.16.7/umd/material-ui.production.min.js
+            
+            🎨 scheme-menu.css
+            🎨 index.css
+
+            📄 jsx/initMaterialUI.jsx
+  
+            📄 index.jsx
+        `);
+    </script>
+  </head>
+  <body></body>
 </html>
