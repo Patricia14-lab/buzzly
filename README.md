@@ -14,7 +14,7 @@
 
 ¡Comparte tu día a día, envía mensajes instantáneos, y mantente siempre al tanto de lo que pasa en tu red!
 
-## Características Principales
+# Características Principales
 
 - **Mensajería Instantánea**: Envía y recibe mensajes en tiempo real con amigos y grupos.
 
