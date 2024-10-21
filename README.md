@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-    <img src="/public/src/img/logo21024.png" width=400>
+    <img src="/public/src/img/logo21024.png" width=300>
 </p>
 
 **Buzzly** es una aplicación de mensajería diseñada para mantener conectado a amigos, familiares y contactos, a través de conversaciones rápidas, divertidas y fluidas. 
