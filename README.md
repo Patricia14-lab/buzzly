@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
- Mensajes instantaneos para una conversación vibrante
+ 🐝 Mensajes instantaneos para una conversación vibrante 🐝
 </h1>
 
 <p align="center">
