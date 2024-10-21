@@ -1,20 +1,22 @@
 <p align="center">
-    <img src="/public/src/img/logo/texto/2-1024.png" width=500>
+    <img src="public/src/img/logo/texto/2-1024.png" width=500>
 </p>
 
-<h1 align="center">
- 🐝 Mensajes instantaneos para una conversación vibrante 🐝
+<h1 style="color:gold;" align="center">
+ 🌤️ Mensajes instantaneos para una conversación vibrante 🐝🐝
 </h1>
 
 <p align="center">
-    <img src="/public/src/img/logo/2-1024.png" width=300>
+    <img src="public/src/img/logo/2-1024.png" width=300>
 </p>
 
-**Buzzly** es una aplicación de mensajería diseñada para mantener conectado a amigos, familiares y contactos, a través de conversaciones rápidas, divertidas y fluidas. 
+**Buzzly** es una aplicación de mensajería diseñada para mantener conectado a amigos, familiares y contactos, a través de conversaciones rápidas, divertidas y fluidas.
 
 ¡Comparte tu día a día, envía mensajes instantáneos, y mantente siempre al tanto de lo que pasa en tu red!
 
-# Características Principales
+<h1 style="color: Moccasin;">
+    Características Principales
+</h1>
 
 - **Mensajería Instantánea**: Envía y recibe mensajes en tiempo real con amigos y grupos.
 
