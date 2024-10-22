@@ -13,42 +13,41 @@
     <meta property="og:image" content="/src/img/2-512.png" />
     <link rel="icon" type="image/png" href="/src/img/logo/64.png" />
 
+    <!-- Carga de dependencias -->
     <script src="https://jeff-aporta.github.io/ASCIIMapLoader/index.js"></script>
-
     <script>
       runASCIIMapLoader_inLine(`
-            🔗 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css
-            
-            
-            ➤🌐 https://cdnjs.cloudflare.com
+            ➤🌐 https://cdnjs.cloudflare.com/ajax/libs
             │
-            └──🔗 ajax/libs/babel-standalone/7.25.5/babel.min.js
+            ├──🔗 font-awesome/6.6.0/css/all.min.css
+            └──🔗 babel-standalone/7.25.5/babel.min.js
             
-            ➤🌐 https://unpkg.com/
+            ➤🌐 https://unpkg.com
             │
             ├──🔗 react@18.3.1/umd/react.production.min.js
             ├──🔗 react-dom@18.3.1/umd/react-dom.production.min.js
             └──🔗 @mui/material@5.16.7/umd/material-ui.production.min.js
             
-            
-            🎨 index.css
-
-            📄 jsx/initMaterialUI.jsx
-            
-            ➤📁 SchemeMenus 
+            ➤📁 css
             │
-            ├──📁 Page  
-            │   ├──📄 MenuLeft.jsx
-            │   └──📄 Page.jsx  
-            │ 
-            ├──📄 MenuTop.jsx   
-            ├──🎨 scheme-menu.css
-            └──📄 SchemeMenus.jsx 
+            └──🎨 global.css
 
-            
+            ➤📁 jsx
+            │
+            ├──📄 initMaterialUI.jsx
+            │
+            ├──📁 SchemeMenus
+            │   │
+            │   ├──📁 Page
+            │   │   ├──📄 MenuLeft.jsx
+            │   │   └──📄 Page.jsx
+            │   │ 
+            │   ├──📄 MenuTop.jsx  
+            │   ├──🎨 scheme-menu.css
+            ╧   └──📄 SchemeMenus.jsx
             
             📄 index.jsx
-        `);
+      `);
     </script>
   </head>
   <body></body>

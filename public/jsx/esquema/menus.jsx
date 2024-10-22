@@ -1,2 +1,0 @@
-function Menus({ estados, navegadorIzquierda }) {
-}

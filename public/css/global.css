@@ -1,0 +1,18 @@
+* {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-uncontrast);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: gray;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: lightgrey;
+  }
+}
