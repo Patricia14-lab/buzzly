@@ -51,6 +51,8 @@ async function EXEC_QUERY({ QUERY, MSG }) {
     if (debug) {
       console.log(MSG);
     }
+    const data = JSON.parse(JSON.stringify(results))[0];
+    return data
   } catch (err) {
     throw err;
   }

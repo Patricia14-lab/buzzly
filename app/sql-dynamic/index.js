@@ -25,6 +25,8 @@ const [
     INSERT_OBJECT,
     EXISTS,
     CALC_TYPE,
+    DELETE_ROW,
+    READ_ROW,
   },
 ] = ["SQL", "TABLE"].map((n) => require(`./${n}`)(connection, debug));
 
@@ -42,20 +44,21 @@ connection.connect(async function (err) {
   }
 });
 
-function _test_() {
+async function _test_() {
   CREATE_DATABASE({ DATABASE: process.env.db });
   CHANGE_DATABASE({ DATABASE: process.env.db });
   CREATE_TABLE({ TABLE: "usuarios" });
-  INSERT_OBJECT({
+  let row = await READ_ROW({
     TABLE: "usuarios",
-    OBJECT: {
-      id: 2,
-      nombre: "Jeffrey123",
-      password: "123abc",
-      banned: false,
-    },
+    ID: 4,
   });
+  
+  console.log(`Tu nombre es: ${row.getCOL("nombre")} y edad es : ${row.getCOL("edad")}`)
+
+
+
 }
+
 
 module.exports = {
   //----------------SQL
@@ -64,7 +67,9 @@ module.exports = {
   CHANGE_DATABASE,
   EXEC_QUERY,
   //----------------TABLE
+  DELETE_ROW,
   GET_COLUMNS,
+  READ_ROW,
   GET_COLUMNS_TYPE,
   ADD_COLUMN,
   INSERT_OBJECT,

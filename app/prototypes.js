@@ -12,6 +12,10 @@ Object.prototype.getSNAKE_KEY = function (SNAKE_KEY) {
   return this[key];
 };
 
+Object.prototype.getCOL = function(COL){
+  return this.getSNAKE_KEY(COL)
+}
+
 global.runPrototypes = true;
 
 module.exports = 0;

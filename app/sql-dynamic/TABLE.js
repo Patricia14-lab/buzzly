@@ -116,6 +116,25 @@ function CALC_TYPE({ DATA }) {
   }
 }
 
+async function DELETE_ROW({TABLE, ID}){
+  const query = `DELETE FROM ${TABLE} WHERE ID = ${ID};`;
+
+  await EXEC_QUERY({
+    QUERY: query,
+    MSG: `Row delete in ${TABLE} with ID ${ID}`,
+  });
+}
+
+async function READ_ROW({TABLE, ID}){
+  const query = `SELECT * FROM ${TABLE} WHERE ID = ${ID};`;
+  
+  return await EXEC_QUERY({
+    QUERY: query,
+    MSG: `Row read in ${TABLE} with ID ${ID}`,
+  });
+}
+
+
 module.exports = (_con, _debug) => {
   connection = _con;
   debug = _debug;
@@ -127,5 +146,9 @@ module.exports = (_con, _debug) => {
     INSERT_OBJECT,
     EXISTS,
     CALC_TYPE,
+    DELETE_ROW,
+    READ_ROW
   };
 };
+
+
