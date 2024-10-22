@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 require("./app/prototypes");
-const sql = require("./app/sql");
+const sql = require("./app/sql-dynamic");
 
 const http = require("http");
 const express = require("express");

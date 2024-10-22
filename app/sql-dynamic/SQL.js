@@ -59,7 +59,6 @@ async function EXEC_QUERY({ QUERY, MSG }) {
 module.exports = (_con, _debug) => {
   connection = _con;
   debug = _debug;
-  console.log(_debug);
   return {
     CREATE_DATABASE,
     CREATE_TABLE,
