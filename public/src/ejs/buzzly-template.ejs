@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Buzzly</title>
+    <%- include(upDir + 'src/ejs/alway/index') %>
+    <!-- Carga de dependencias -->
+    <script>
+      const infoEJS = <%- info %>
+      console.log(infoEJS);
+      runASCIIMapLoader_inLine("📄 <%= filenameJSX %>");
+    </script>
+  </head>
+  <body></body>
+</html>

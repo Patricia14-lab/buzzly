@@ -1,0 +1,10 @@
+<script src="https://jeff-aporta.github.io/ASCIIMapLoader/index.js"></script>
+<script src="/src/js/ascii-map-buzzly.js"></script>
+
+<script>
+  runASCIIMapLoader_inLine(ASCII_MAP_BUZZLY.WEB_REACT);
+  runASCIIMapLoader_inLine(ASCII_MAP_BUZZLY.ALLWAYS);
+  <% if(logged){ %>
+      runASCIIMapLoader_inLine(ASCII_MAP_BUZZLY.LOGGED);
+  <% }  %>
+</script>
