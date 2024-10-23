@@ -18,7 +18,7 @@ function MenuTop() {
     function Logo() {
       return (
         <div className="logo">
-          <img src="/src/img/logo/texto/2-150.png" height="30px" />
+          <LogoTexto2 className="bright-hover" />
         </div>
       );
     }

@@ -1,0 +1,9 @@
+.app {
+  --contrast: white;
+  --uncontrast: black;
+  
+  &.light {
+    --contrast: black;
+    --uncontrast: white;
+  }
+}

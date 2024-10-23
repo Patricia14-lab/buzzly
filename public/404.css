@@ -1,0 +1,20 @@
+.error-404 {
+  .menu-top {
+    background-color: var(--uncontrast);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90dvh;
+    .text {
+      width: 40dvw;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

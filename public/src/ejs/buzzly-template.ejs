@@ -8,6 +8,9 @@
       const infoEJS = <%- info %>
       console.log(infoEJS);
       runASCIIMapLoader_inLine("📄 <%= filenameJSX %>");
+      <% if(filenameCSS){ %>
+        runASCIIMapLoader_inLine("🎨 <%= filenameCSS %>");
+      <% } %>
     </script>
   </head>
   <body></body>

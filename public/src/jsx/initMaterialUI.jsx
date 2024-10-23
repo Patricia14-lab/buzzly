@@ -1,40 +1,39 @@
-Object.assign(window, window['MaterialUI']);
+Object.assign(window, window["MaterialUI"]);
+
+const themename = localStorage.getItem("theme") ?? "dark";
 
 let palette = {
   primary: {
-    main: '#194F8F',
+    main: "#194F8F",
+    contrastText: themename == "dark" ? "#fff" : "#000",
   },
   secondary: {
-    main: localStorage.getItem("theme") == "dark" ? '#363640' : '#ccccff',
-    color: '#FFFFFF',
+    main: themename == "dark" ? "#363640" : "#ccccff",
+    color: "#fff",
   },
 };
 
 const darkTheme = createTheme({
   typography: {
     button: {
-      textTransform: 'none'
+      textTransform: "none",
     },
   },
   palette: {
-    mode: 'dark',
+    mode: "dark",
     background: {
-      default: '#121215',
-      paper: '#121218',
+      default: "#121215",
+      paper: "#121218",
     },
-    ...palette
+    ...palette,
   },
 });
 
 const lightTheme = createTheme({
   palette: {
-    mode: 'light',
-    ...palette
+    mode: "light",
+    ...palette,
   },
 });
 
-if (!localStorage.getItem("theme")) {
-  localStorage.setItem("theme", "dark");
-}
-
-let theme = localStorage.getItem("theme") == "dark" ? darkTheme : lightTheme;
+let theme = themename == "dark" ? darkTheme : lightTheme;

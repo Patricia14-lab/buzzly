@@ -1,7 +1,7 @@
 function App() {
   return (
     <div>
-      <h1>Bienvenida {name}</h1>
+      <h1>Bienvenid@</h1>
       <hr />
       <h2>Logged</h2>
       <h2>

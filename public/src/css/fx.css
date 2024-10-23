@@ -1,0 +1,5 @@
+.bright-hover {
+  &:hover {
+    filter: brightness(2);
+  }
+}
